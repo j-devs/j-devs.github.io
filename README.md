@@ -1,10 +1,10 @@
 # minus
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+Hello.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+I'm Minus, a jekyll theme minus everything extra.
 
-TODO: Delete this and the text above, and describe your gem
+Enjoy.
 
 
 ## Installation
@@ -49,4 +49,3 @@ To add a custom directory to your theme-gem, please edit the regexp in `minus.ge
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
