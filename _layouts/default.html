@@ -2,11 +2,19 @@
 <html>
   {% include head.html %}
   <body>
-    <header>
-      {% include nav.html %}
-    </header>
-    <div class="container">
-      <h1 class="page-title">{{ page.title }}</h1>
+
+    {% include nav.html %}
+
+    <main class="container" id="panel">
+
+      <header>
+        <div class="page-title">
+          <h1>{{ page.title }}</h1>
+        </div>
+        <button class="toggle-button icon-menu-icon"></button>
+      </header>
+
+
       <ul>
         {% for post in site.posts %}
           <li>
@@ -14,6 +22,21 @@
           </li>
         {% endfor %}
       </ul>
-    </div>
+    </main>
+
+
+    <script src="assets/js/slideout.min.js"></script>
+    <script>
+      var slideout = new Slideout({
+        'panel': document.getElementById('panel'),
+        'menu': document.getElementById('menu'),
+        'side': 'right'
+      });
+
+      // Toggle button
+      document.querySelector('.toggle-button').addEventListener('click', function() {
+        slideout.toggle();
+      });
+    </script>
   </body>
 </html>
