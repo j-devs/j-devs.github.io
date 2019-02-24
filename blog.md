@@ -7,7 +7,7 @@ title: Blog
     <ul>
       {% for post in site.posts %}
         <li class="post-listing">
-          <p class="post-title">{{ post.title }}</p>
+          <p><span class="post-title">{{ post.title }} </span></p>
           <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncatewords: 20 }}</p>
           <a href="{{ post.url }}">Read</a>
           <hr>

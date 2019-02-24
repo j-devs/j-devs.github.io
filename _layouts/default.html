@@ -8,17 +8,15 @@
     <main id="panel">
       <div class="container">
 
-
         {% include header.html %}
 
         {{ content }}
-
 
       </div>
     </main>
 
 
-    <script src="{{site.url}}/assets/js/slideout.min.js"></script>
+    <script src="/assets/js/slideout.min.js"></script>
     <script>
       var slideout = new Slideout({
         'panel': document.getElementById('panel'),
