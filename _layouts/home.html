@@ -1,10 +1,60 @@
 <!doctype html>
 <html>
-  {% include head.html %}
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Justin Gaddis | Software Developer</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,500" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+
   <body>
-    <div class="hero">
-      <p class="logo">Justin Gaddis</p>
-      <p class="sub-logo">Software Developer</p>
-    </div>
+
+    <nav id="menu">
+      <section class="nav-logo">
+        <h1>Menu</h1>
+      </section>
+      <ul>
+        <li><a href="/software">Software</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="mailto:j@justingaddis.com">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main id="panel">
+      <div class="container">
+
+        <header>
+          <button class="toggle-button icon-menu-icon"></button>
+        </header>
+
+      </div>
+
+      <div class="hero">
+        <p class="logo">Justin Gaddis</p>
+        <p class="sub-logo">Software Developer</p>
+        <div class="shadow-line"></div>
+      </div>
+    </main>
+
+
+    <script src="/assets/js/slideout.min.js"></script>
+    <script>
+      var slideout = new Slideout({
+        'panel': document.getElementById('panel'),
+        'menu': document.getElementById('menu'),
+        'side': 'right'
+      });
+
+      // Toggle button
+      document.querySelector('.toggle-button').addEventListener('click', function() {
+        slideout.toggle();
+      });
+    </script>
   </body>
 </html>
