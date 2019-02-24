@@ -1,5 +1,5 @@
 ---
-  post-title: This is a Test
+  post-title: Creating Makegit
   layout: post
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar elementum integer enim neque volutpat. Ac odio tempor orci dapibus. Gravida in fermentum et sollicitudin ac orci. Amet volutpat consequat mauris nunc. Congue eu consequat ac felis donec. Nulla porttitor massa id neque. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Tortor consequat id porta nibh venenatis cras sed felis. Orci porta non pulvinar neque laoreet suspendisse interdum.
