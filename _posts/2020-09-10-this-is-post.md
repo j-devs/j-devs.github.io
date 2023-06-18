@@ -8,9 +8,9 @@ title: "Links"
 
 <p>Situation- Dispatched to a call out of going to for a patient with a dx of</p>
 
-<p>Background- Pt is a YOM<i>F with a PMH of BIBA</i>S<i>F c</i>o x days. While in hospital was performed. Pt has a ga IV to, running at mL/hr. Pt is being transferred for</p>
+<p>Background- Pt is a YOM/F with a PMH of BIBA/S/F c/o x days. While in hospital was performed. Pt has a ga IV to, running at mL/hr. Pt is being transferred for</p>
 
-<p>Assessment-Pt is a<i>o x, VSS, NAD noted. Normocephalic, pupils mm and PERRLA, mucus membranes pink</i>moist, skin warm<i>dry</i>intact, speaking in complete sentences, neck midline, lung sounds bilaterally, good and even chest rise, no obvious deformities to limbs, pulses +2 x4, cap refill less than 3 seconds. Pt intubated with mm ETT/trach, mm at lips. Vent settings as follows</p>
+<p>Assessment-Pt is a/o x, VSS, NAD noted. Normocephalic, pupils mm and PERRLA, mucus membranes pink/moist, skin warm/dry/intact, speaking in complete sentences, neck midline, lung sounds bilaterally, good and even chest rise, no obvious deformities to limbs, pulses +2 x4, cap refill less than 3 seconds. Pt intubated with mm ETT/trach, mm at lips. Vent settings as follows</p>
 
 <p>-informed by dispatch</p>
 <p>-en route code to</p>
